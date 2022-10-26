@@ -31,7 +31,7 @@
 		9498286A281EA5F2001A6627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982869281EA5F2001A6627 /* SceneDelegate.swift */; };
 		94982872281EA5F2001A6627 /* Zivame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94982870281EA5F2001A6627 /* Zivame.xcdatamodeld */; };
 		94982874281EA5F4001A6627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94982873281EA5F4001A6627 /* Assets.xcassets */; };
-		EC7FEA53BB692E9A4F30E5CF /* Pods_Zivame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB10D6742814413E9F555CCF /* Pods_Zivame.framework */; };
+		B7DD7F69A6FA308007E7F2F8 /* Pods_Zivame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676779029CD6B7F7B08B2C52 /* Pods_Zivame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F5BDC7A8F36771D9FE5DBA4 /* Pods-Zivame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zivame.debug.xcconfig"; path = "Target Support Files/Pods-Zivame/Pods-Zivame.debug.xcconfig"; sourceTree = "<group>"; };
+		4797639A7940218772AF62B3 /* Pods-Zivame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zivame.release.xcconfig"; path = "Target Support Files/Pods-Zivame/Pods-Zivame.release.xcconfig"; sourceTree = "<group>"; };
+		676779029CD6B7F7B08B2C52 /* Pods_Zivame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zivame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AFE063D717EC4CC2B0DA30 /* Pods-Zivame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zivame.debug.xcconfig"; path = "Target Support Files/Pods-Zivame/Pods-Zivame.debug.xcconfig"; sourceTree = "<group>"; };
 		940BC031282023F7006E9715 /* CartItems+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CartItems+CoreDataClass.swift"; sourceTree = "<group>"; };
 		940BC032282023F7006E9715 /* CartItems+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CartItems+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		940BC03628202412006E9715 /* APICallManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICallManager.swift; sourceTree = "<group>"; };
@@ -73,8 +75,6 @@
 		94982871281EA5F2001A6627 /* Zivame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zivame.xcdatamodel; sourceTree = "<group>"; };
 		94982873281EA5F4001A6627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94982878281EA5F4001A6627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB10D6742814413E9F555CCF /* Pods_Zivame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zivame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E83DBA987943D9491B08CF68 /* Pods-Zivame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zivame.release.xcconfig"; path = "Target Support Files/Pods-Zivame/Pods-Zivame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7FEA53BB692E9A4F30E5CF /* Pods_Zivame.framework in Frameworks */,
+				B7DD7F69A6FA308007E7F2F8 /* Pods_Zivame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,18 +99,10 @@
 		294D597D9009F22CFFC31959 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3F5BDC7A8F36771D9FE5DBA4 /* Pods-Zivame.debug.xcconfig */,
-				E83DBA987943D9491B08CF68 /* Pods-Zivame.release.xcconfig */,
+				73AFE063D717EC4CC2B0DA30 /* Pods-Zivame.debug.xcconfig */,
+				4797639A7940218772AF62B3 /* Pods-Zivame.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		33E66C08CC1CCB5D2D8F8814 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DB10D6742814413E9F555CCF /* Pods_Zivame.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		940BC03528202412006E9715 /* APICallManager */ = {
@@ -275,7 +267,7 @@
 				941A9ACE2820E07500CA5165 /* ZivameTestCases */,
 				94982865281EA5F2001A6627 /* Products */,
 				294D597D9009F22CFFC31959 /* Pods */,
-				33E66C08CC1CCB5D2D8F8814 /* Frameworks */,
+				B4E02705DCC451E7EE1082D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -308,6 +300,14 @@
 			path = Zivame;
 			sourceTree = "<group>";
 		};
+		B4E02705DCC451E7EE1082D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				676779029CD6B7F7B08B2C52 /* Pods_Zivame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,11 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9498287B281EA5F4001A6627 /* Build configuration list for PBXNativeTarget "Zivame" */;
 			buildPhases = (
-				DC421F87863887395705AA25 /* [CP] Check Pods Manifest.lock */,
+				6E98365255DA187FED0D077E /* [CP] Check Pods Manifest.lock */,
 				94982860281EA5F2001A6627 /* Sources */,
 				94982861281EA5F2001A6627 /* Frameworks */,
 				94982862281EA5F2001A6627 /* Resources */,
-				8B1743C7BF023E4B6E7467F1 /* [CP] Embed Pods Frameworks */,
+				512308261E664EBF2C64DA40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -409,7 +409,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8B1743C7BF023E4B6E7467F1 /* [CP] Embed Pods Frameworks */ = {
+		512308261E664EBF2C64DA40 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -426,7 +426,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zivame/Pods-Zivame-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DC421F87863887395705AA25 /* [CP] Check Pods Manifest.lock */ = {
+		6E98365255DA187FED0D077E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -666,7 +666,7 @@
 		};
 		9498287C281EA5F4001A6627 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F5BDC7A8F36771D9FE5DBA4 /* Pods-Zivame.debug.xcconfig */;
+			baseConfigurationReference = 73AFE063D717EC4CC2B0DA30 /* Pods-Zivame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -695,7 +695,7 @@
 		};
 		9498287D281EA5F4001A6627 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E83DBA987943D9491B08CF68 /* Pods-Zivame.release.xcconfig */;
+			baseConfigurationReference = 4797639A7940218772AF62B3 /* Pods-Zivame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
